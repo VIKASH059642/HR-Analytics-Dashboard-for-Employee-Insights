@@ -2,7 +2,7 @@
 The primary goal of this HR Analytics project is to provide key insights into employee performance, attrition trends, and overall workforce demographics. By leveraging Power BI, we aim to assist HR departments in making data-driven decisions regarding employee retention, promotions, and work-life balance improvements.
 Key Business Questions:
 
-This dashboard helps answer the following HR-related questions:
+# This dashboard helps answer the following HR-related questions:
 
 What is the overall attrition rate in the company?
 
@@ -17,7 +17,7 @@ How long do employees typically stay before getting a promotion?
 Does work-life balance impact attrition rates?
 Dashboard Insights & Features:
 
-The Power BI dashboard consists of multiple interactive visuals that provide actionable insights, including:
+# The Power BI dashboard consists of multiple interactive visuals that provide actionable insights, including:
 
 KPI Cards: Display overall attrition rate, average salary, and average years at the company.
 
@@ -31,7 +31,7 @@ Work-Life Balance Trends: A line graph depicting work-life balance ratings over 
 
 Promotion Trends: A clustered bar chart showing time taken for promotions across job roles.
 
-DAX Measures Implemented:
+# DAX Measures Implemented:
 
 To enhance insights, the following DAX measures were created in Power BI:
 
@@ -43,7 +43,7 @@ Average Tenure (Years at Company) = AVERAGE(Years_at_Company)
 
 Employees Eligible for Promotion = COUNTROWS(FILTER(Employees, Employees[Last_Promotion] > 5))
 
-Key Findings & Recommendations:
+# Key Findings & Recommendations:
 
 High Attrition in Sales & IT Departments: The attrition rate in Sales and IT is significantly higher compared to other departments. HR should investigate job satisfaction and provide retention strategies.
 
@@ -55,15 +55,7 @@ Long Promotion Cycles: Many employees go several years without a promotion, whic
 
 Work-Life Balance Matters: Employees with lower work-life balance ratings tend to have a higher attrition rate. Implementing flexible work policies may improve retention.
 
-Conclusion:
+# Conclusion:
 
 This HR Analytics Dashboard serves as a critical tool for HR teams to understand employee trends, improve retention, and create a more effective workforce strategy. By integrating Power BI’s interactive features with DAX measures, we provide deep insights that drive data-driven HR decision-making.
-
-📊 Next Steps:
-
-Expand the dataset with more employee records for better analysis.
-
-Incorporate predictive modeling for attrition risk assessment.
-
-Implement real-time data updates using Power BI Service.
 
